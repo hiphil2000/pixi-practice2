@@ -1,0 +1,26 @@
+{
+  "name": "pixi-practice-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config ./webpack.config.js --mode=development --watch",
+    "build": "webpack --config ./webpack.config.js --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi-svg": "2.3.1",
+    "pixi-viewport": "4.32.0",
+    "pixi.js": "6.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "16.4.3",
+    "file-loader": "6.2.0",
+    "ts-loader": "9.2.4",
+    "typescript": "4.3.5",
+    "webpack": "5.46.0",
+    "webpack-cli": "4.7.2"
+  }
+}
